@@ -2,27 +2,27 @@
 
 ## Project brief
 
-Convert two pages in `design` folder to HTML/CSS/JS. They belong to a full
+Once started, you have 2 days to convert two pages in the `design` folder to HTML/CSS/JS. They are part of a full
 website and contain links to other pages that are not included in the PSD files.
-Please don't worry about those links. You just need to focus on the layout,
-styles and interactive components on two pages only.
+Please do not worry about those links. You just need to focus on the layout,
+styles and interactive components on two pages only. Once you have completed the task, please commit and push to a new branch named with your first and last name.
 
 ### Interactive components
 
-- On home page, a drop-up menu should be displayed when the mouse hovers over
+- On the home page, a drop-up menu should be displayed when the mouse hovers over
 the up arrows.
-- On about us page, you need to implement the tab switching in the left menu.
-Please refer to the PSD file for tab contents.
+- On the about us page, you need to implement the tab switching in the left hand side menu.
+Please refer to the PSD file for the tab contents.
 
 ## Requirements
 
 1. Generate the project using [Yeoman](http://yeoman.io/);
-2. Install dependencies using [Bower](http://bower.io/);
-3. Run website using [Grunt](http://gruntjs.com/);
+2. Install the dependencies using [Bower](http://bower.io/);
+3. Run the website using [Grunt](http://gruntjs.com/);
 4. Use HTML5/CSS3;
 5. Ensure that the website supports modern browsers (IE9+).
 
-**Bonus** Make the website work on mobile devices. You may need to think about
+**Bonus** Can you make the website work on mobile devices. You may need to think about
 the mobile website design in terms of usability and adjust the interactive
 components accordingly.
 
