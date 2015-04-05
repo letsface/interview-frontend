@@ -8,7 +8,7 @@
  * Controller of the letsfaceApp
  */
 angular.module('letsfaceApp').controller('AboutCtrl', function ($rootScope, $scope) {
-  $rootScope.currentLogo = "logo_color.png"
+  $rootScope.currentLogo = 'logo_color.png';
   $scope.sections = [
     {
       name: '关于我们',
@@ -22,8 +22,8 @@ angular.module('letsfaceApp').controller('AboutCtrl', function ($rootScope, $sco
 
 
   $scope.changeSection = function(section) {
-    $scope.currentSection = section
-  }
+    $scope.currentSection = section;
+  };
 
 
   var init = function () {

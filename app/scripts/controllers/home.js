@@ -9,7 +9,7 @@
  */
 angular.module('letsfaceApp').controller('HomeCtrl', function ($scope, $rootScope, $route) {
   $rootScope.route = $route;
-  $rootScope.currentLogo = "logo.png";
+  $rootScope.currentLogo = 'logo.png';
 
 
   $scope.dropDownMenu = [
