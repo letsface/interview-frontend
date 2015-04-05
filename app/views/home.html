@@ -1,0 +1,24 @@
+
+<div class="drop-up-menu-ctn">
+  <div class="row-same-height">
+    <div ng-repeat="button in dropDownMenu" class="col-xs-4 col-xs-height col-bottom text-center">
+      <div ng-mouseenter="hover = true" ng-mouseleave="hover = false" class="expand-ctn">
+        <div class="wrapper">
+          <div ng-class="{'active' : hover}" class="menu-links-ctn">
+            <a ng-repeat="link in button.links" href="{{link.path}}">
+              <div class="link">
+                {{link.text}}
+              </div>
+            </a>
+          </div>  
+        </div>
+        <div class="arrow-button text-center">
+          <i class="fa fa-angle-double-up"></i>
+        </div>  
+      </div>
+      <div class="main-button">{{button.mainName}}</div>
+    </div>
+  </div>
+  
+
+</div>

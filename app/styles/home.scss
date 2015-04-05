@@ -1,0 +1,132 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+
+.row-same-height{
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.col-xs-height{
+  display: table-cell;
+  float: none !important;
+  padding: 0 !important;
+}
+
+.col-bottom{
+  vertical-align: bottom;
+}
+
+
+.footer{
+  border: 2px solid #d8d8d8;
+  border-right: 0;
+  border-left: 0;
+  padding: 6px 0px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+  .footer-link{
+    border-right: 1px solid #d8d8d8;
+    padding: 0px 10px;
+    color: #464646;
+    text-decoration: none;
+    &:last-child{
+      border-right: none;
+    }
+  }
+}
+
+body{
+  background: #f0f0f0;
+  &.home{
+    background: url(../images/home_bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-transition: cover;
+    -ms-transition: cover;
+    -o-transition: cover;
+  }
+}
+
+.drop-up-menu-ctn{
+  margin-top: 150px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  .wrapper{
+    overflow: hidden;
+    .menu-links-ctn{
+      transition: 0.5s;
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+      -o-transition: 0.5;
+
+      transform: translate3d(0, 100%, 0);
+      -webkit-transform: translate3d(0, 100%, 0);
+      -moz-transition: translate3d(0, 100%, 0);
+      -ms-transition: translate3d(0, 100%, 0);
+      -o-transition: translate3d(0, 100%, 0);
+      &.active{
+        transform: translate3d(0, 0, 0);
+        -webkit-webkit-transform: translate3d(0, 100%, 0);
+        -moz-webkit-transform: translate3d(0, 100%, 0);
+        -ms-webkit-transform: translate3d(0, 100%, 0);
+        -o-webkit-transform: translate3d(0, 100%, 0);
+      }
+      a{
+        text-decoration: none;
+
+        .link{
+          color: white;
+          background-color: rgba(70, 70, 70, 0.7);
+          padding: 10px 0px;
+          border-bottom: 1px solid #aaa;
+          
+          &:hover{
+            background: rgba(55, 55, 55, 1);
+          }
+        }
+        &:last-child{
+          .link{
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+  .arrow-button{
+    color: white;
+    background-color: #454545  
+  }
+  .main-button{
+    background-color: white;
+    opacity: 0.7;
+    padding: 10px 0px;
+  }
+
+}
+
+header{
+  .header-bar{
+    background-color: #a9a9a9;
+    padding: 10px 0px;
+  }
+  .auth-link-ctn{
+    a{
+      text-decoration: underline;
+      color: #464646;
+      &:hover{
+        color: black;
+      }  
+    }
+  }
+}
+
+.home{
+  .header-bar{
+    background: rgba(79, 79, 79, 0.49);
+  }
+}
